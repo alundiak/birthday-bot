@@ -1,0 +1,29 @@
+{
+  "name": "skype-birthday-bot",
+  "version": "1.0.0",
+  "description": "NodeJS based Skype bot to inform chat members about members birthdays.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alundiak/skype-birthday-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alundiak/skype-birthday-bot/issues"
+  },
+  "homepage": "https://github.com/alundiak/skype-birthday-bot#readme",
+  "dependencies": {
+    "botbuilder": "^3.13.1",
+    "botbuilder-azure": "^3.0.4",
+    "botbuilder-calling": "^3.0.1",
+    "express": "^4.16.2",
+    "restify": "^7.1.1",
+    "csvtojson": "^1.1.9",
+    "csv": "^3.0.2"
+  }
+}
