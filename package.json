@@ -21,9 +21,10 @@
     "botbuilder": "^3.13.1",
     "botbuilder-azure": "^3.0.4",
     "botbuilder-calling": "^3.0.1",
-    "express": "^4.16.2",
-    "restify": "^7.1.1",
+    "csv": "^3.0.2",
     "csvtojson": "^1.1.9",
-    "csv": "^3.0.2"
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "restify": "^7.1.1"
   }
 }

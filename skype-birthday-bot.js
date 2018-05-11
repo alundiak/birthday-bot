@@ -18,7 +18,7 @@ module.exports = function(connector) {
 
     // https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-handle-conversation-events
     bot.on('contactRelationUpdate', function(message) {
-        console.log(message);
+        consol.log('MESSAGE', JSON.stringify(session, null, 2));
         if (message.action === 'add') {
             var name = message.user ? message.user.name : null;
             var reply = new builder.Message()
