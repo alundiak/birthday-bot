@@ -22,7 +22,7 @@ const env = require('dotenv').config({path: ENV_FILE});
 
 // bot endpoint name as defined in .bot file
 // See https://aka.ms/about-bot-file to learn more about .bot file its use and bot configuration .
-const DEV_ENVIRONMENT = 'stolat'; 
+const DEV_ENVIRONMENT = 'development'; 
 // must be the same value as in birthday.bot (services[].name). // But initial value was "development"
 // Also, this endpoint name will be visible in Emulator (useful to have it different)
 

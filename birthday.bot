@@ -6,9 +6,15 @@
             "type": "endpoint",
             "appId": "",
             "appPassword": "",
-            "endpoint": "http://localhost:3980/api/messages",
+            "endpoint": "http://localhost:3978/api/messages",
             "id": "1",
-            "name": "stolat"
+            "name": "development"
+        },
+        {
+            "type": "endpoint",
+            "id": "2",
+            "name": "production",
+            "url": "https://stolat.azurewebsites.net/api/messages"
         }
     ],
     "padlock": "",
