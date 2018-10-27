@@ -14,7 +14,7 @@
             "type": "endpoint",
             "id": "2",
             "name": "production",
-            "url": "https://stolat.azurewebsites.net/api/messages"
+            "url": "https://stolat-bot.herokuapp.com/api/messages"
         }
     ],
     "padlock": "",
