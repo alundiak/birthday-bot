@@ -1,30 +1,43 @@
 {
-  "name": "skype-birthday-bot",
+  "name": "birthday-bot",
   "version": "1.0.0",
-  "description": "NodeJS based Skype bot to inform chat members about members birthdays.",
+  "description": "NodeJS based bot to inform chat(channel) members about someone's birthdays.",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./server-v4.js",
+    "watch": "nodemon ./server-v4.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alundiak/skype-birthday-bot.git"
+    "url": "git+https://github.com/alundiak/birthday-bot.git"
   },
-  "author": "",
+  "author": "Andrii Lundiak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alundiak/skype-birthday-bot/issues"
+    "url": "https://github.com/alundiak/birthday-bot/issues"
   },
-  "homepage": "https://github.com/alundiak/skype-birthday-bot#readme",
+  "homepage": "https://github.com/alundiak/birthday-bot#readme",
   "dependencies": {
-    "botbuilder": "^3.13.1",
-    "botbuilder-azure": "^3.0.4",
+    "botbuilder": "^4.0.6",
+    "botbuilder-azure": "^4.0.0",
     "botbuilder-calling": "^3.0.1",
-    "csv": "^3.0.2",
-    "csvtojson": "^1.1.9",
-    "dotenv": "^5.0.1",
-    "express": "^4.16.2",
-    "restify": "^7.1.1"
+    "botframework-config": "^4.0.6",
+    "csv": "^4.0.0",
+    "csvtojson": "^2.0.8",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.4",
+    "restify": "^7.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "@types/restify": "^7.2.5",
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.4"
   }
 }

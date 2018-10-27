@@ -1,3 +1,4 @@
+// Birthday Bot using SDK v3. Old.
 module.exports = function(connector) {
     var builder = require('botbuilder');
     // var sendSms = require('./parse-xls');

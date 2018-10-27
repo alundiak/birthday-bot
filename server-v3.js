@@ -1,5 +1,5 @@
 //
-// Skype Birthday Bot
+// Birthday Bot Server v3
 //
 require('dotenv').config();
 
