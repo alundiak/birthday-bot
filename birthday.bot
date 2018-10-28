@@ -1,6 +1,6 @@
 {
     "name": "birthday",
-    "description": "",
+    "description": "NodeJS based bot to inform chat (channel) members about someone's birthday.",
     "services": [
         {
             "type": "endpoint",
@@ -15,6 +15,16 @@
             "id": "2",
             "name": "production",
             "url": "https://stolat-bot.herokuapp.com/api/messages"
+        },
+        {
+            "type": "luis",
+            "name": "basic-bot-LUIS",
+            "appId": "",
+            "version": "0.1",
+            "authoringKey": "",
+            "subscriptionKey": "",
+            "region": "westeu",
+            "id": "3"
         }
     ],
     "padlock": "",

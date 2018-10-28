@@ -30,6 +30,25 @@ NodeJS based bot to inform chat (channel) members about someone's birthday.
 - https://join.skype.com/bot/948e14b4-e88a-42b0-9cbc-95c02ef6cccb
 
 
+# LUIS (Microsoft) vs. NLP (Facebook) vs. Cortna (Microsoft)
+
+## LUIS
+- https://docs.microsoft.com/en-us/azure/cognitive-services/luis/what-is-luis
+> Once the LUIS app is published, a client application sends utterances (text) to the LUIS natural language processing endpoint API and receives the results as JSON responses.
+
+- https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=cs
+- `luisgen` requires/depends `dotnet`
+- https://docs.microsoft.com/en-us/dotnet/core/macos-prerequisites?tabs=netcore2x
+- https://www.luis.ai/applications - My LUIS Apps main page
+- https://aka.ms/luis-endpoint-apis
+
+## Cortana
+- https://docs.microsoft.com/en-us/cortana/skills/overview
+- https://my.knowledge.store/workspace - Manage Cortana Skills?
+
+## NLP
+
+
 # From Yeoman "botbuilder" generator
 
 https://docs.microsoft.com/en-us/azure/bot-service/javascript/bot-builder-javascript-quickstart?view=azure-bot-service-4.0
@@ -99,5 +118,5 @@ msbot clone services -f deploymentScripts/msbotClone -n myChatBot -l <Azure-loca
 [7]: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-storage-concept?view=azure-bot-service-4.0
 [8]: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-storage?view=azure-bot-service-4.0&tabs=jsechoproperty%2Ccsetagoverwrite%2Ccsetag
 [9]: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-state?view=azure-bot-service-4.0&tabs=js
-[10] https://dev.botframework.com
-
+[10]: https://dev.botframework.com
+ 
