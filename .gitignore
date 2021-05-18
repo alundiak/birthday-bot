@@ -58,4 +58,4 @@ typings/
 .env
 
 # personal
-package-lock.json
+#package-lock.json

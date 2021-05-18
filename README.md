@@ -1,4 +1,4 @@
-birthday-bot
+birthday-bot (stolat-bot)
 ===
 
 NodeJS based bot to inform chat (channel) members about someone's birthday.
@@ -42,11 +42,20 @@ NodeJS based bot to inform chat (channel) members about someone's birthday.
 - https://www.luis.ai/applications - My LUIS Apps main page
 - https://aka.ms/luis-endpoint-apis
 
+Looks like example of endpoint call:
+
+```
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/b19793*****5380?subscription-key=e1759****12e69&timezoneOffset=-360&q=
+```
+
 ## Cortana
 - https://docs.microsoft.com/en-us/cortana/skills/overview
 - https://my.knowledge.store/workspace - Manage Cortana Skills?
 
 ## NLP
+
+# Telegram bot setting inline.
+- https://core.telegram.org/bots/inline
 
 
 # From Yeoman "botbuilder" generator
@@ -119,4 +128,4 @@ msbot clone services -f deploymentScripts/msbotClone -n myChatBot -l <Azure-loca
 [8]: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-storage?view=azure-bot-service-4.0&tabs=jsechoproperty%2Ccsetagoverwrite%2Ccsetag
 [9]: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-state?view=azure-bot-service-4.0&tabs=js
 [10]: https://dev.botframework.com
- 
+
